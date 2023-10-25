@@ -14,5 +14,5 @@ func main() {
 }
 
 func startJVM(cmd *Cmd) {
-	fmt.Printf("*classpath:%s class:%s args:%v\n", cmd.cpOption, cmd.class, cmd.args)
+	fmt.Printf("classpath:%s class:%s args:%v\n", cmd.cpOption, cmd.class, cmd.args)
 }
