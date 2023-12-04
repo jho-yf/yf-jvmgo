@@ -52,7 +52,7 @@ func (cr *ClassReader) readUint16s() []uint16 {
 	return s
 }
 
-// 
+// 读取指定数量的字节
 func (cr *ClassReader) readBytes(n uint32) []byte {
 	bytes := cr.data[:n]
 	cr.data = cr.data[n:]
