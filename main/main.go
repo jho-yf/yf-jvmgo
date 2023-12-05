@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"strings"
-	"yf-jvmgo/ch02-class-search/classpath"
+	"yf-jvmgo/classpath"
 )
 
 func main() {
